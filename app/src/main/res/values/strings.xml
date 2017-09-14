@@ -1,3 +1,26 @@
 <resources>
     <string name="app_name">satish</string>
+    <string-array name="dept">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>ECE</item>
+        <item>MEC</item>
+        <item>IT</item>
+        <item>CIVIL</item>
+    </string-array>
+    <string-array name="year">
+        <item>I</item>
+        <item>II</item>
+        <item>III</item>
+        <item>IV</item>
+        <item>V</item>
+    </string-array>
+    <string-array name="sec">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+    </string-array>
 </resources>
