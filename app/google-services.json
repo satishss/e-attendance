@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "294188803036",
+    "firebase_url": "https://e-attendance-4f33a.firebaseio.com",
+    "project_id": "e-attendance-4f33a",
+    "storage_bucket": "e-attendance-4f33a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294188803036:android:d7ecda3888ab8b69",
+        "android_client_info": {
+          "package_name": "com.lazydevelopers.app.eattendance"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294188803036-c8s1pnimc5tmo3sdhkd9um00uob9irss.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lazydevelopers.app.eattendance",
+            "certificate_hash": "5a99e2a42e1e64153d0cb5cd60ce1c1309693ca8"
+          }
+        },
+        {
+          "client_id": "294188803036-9q12qsiqsu6csqgm75psgovjarikoac7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdsOYMJHIIAH73Y8RfypZNkyjKrLvLtow"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "294188803036-9q12qsiqsu6csqgm75psgovjarikoac7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
