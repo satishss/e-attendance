@@ -9,11 +9,12 @@ import android.support.v7.app.AppCompatActivity;
 import com.firebase.ui.auth.AuthUI;
 import com.firebase.ui.auth.ErrorCodes;
 import com.firebase.ui.auth.IdpResponse;
-
 import java.util.Arrays;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
+import static android.app.Activity.RESULT_OK;
 
 public class MainActivity extends AppCompatActivity {
     private static final int RC_SIGN_IN = 123;

@@ -9,31 +9,50 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
     tools:context="com.lazydevelopers.app.eattendance.SubmitAttendanceActivity">
-
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter Details"
+    android:textSize="24sp"
+    android:gravity="center"
+    />
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/dept"
         android:entries="@array/dept"
+        android:layout_margin="8dp"
         />
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/year"
         android:entries="@array/year"
+        android:layout_margin="8dp"
         />
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/sec"
         android:entries="@array/sec"
+        android:layout_margin="8dp"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:id="@+id/number"
+        android:hint="Enter Count"
+        android:layout_margin="8dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:text="Submit"
         />
 
 </LinearLayout>
