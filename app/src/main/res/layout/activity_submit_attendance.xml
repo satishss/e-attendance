@@ -12,7 +12,13 @@
     android:gravity="center"
     android:layout_gravity="center"
     tools:context="com.lazydevelopers.app.eattendance.SubmitAttendanceActivity">
-<TextView
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/logo"
+    android:layout_margin="32dp"
+    />
+    <TextView
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:text="Enter Details"
@@ -53,6 +59,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/submit"
         android:text="Submit"
+        android:textColor="#FFF"
         />
 
 </LinearLayout>

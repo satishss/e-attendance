@@ -1,6 +1,7 @@
 package com.lazydevelopers.app.eattendance;
 
 import android.os.Bundle;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.widget.Button;
@@ -42,11 +43,11 @@ public class SubmitAttendanceActivity extends AppCompatActivity {
     public void onViewClicked() {
         boolean cancel=true;
         if(dept.getSelectedItemId()==-1||year.getSelectedItemId()==-1||sec.getSelectedItemId()==-1|| TextUtils.isEmpty(number.getText().toString()))
-            Toast.makeText(this, "All Options Are COmpulsary", Toast.LENGTH_SHORT).show();
+            Snackbar.make(activitySubmitAttendance, "All Options Are COmpulsary", Snackbar.LENGTH_SHORT).show();
         else {
             DatabaseReference db= FirebaseDatabase.getInstance().getReference().child(dept.getSelectedItem().toString()).child(year.getSelectedItem().toString()+"-"+sec.getSelectedItem().toString());
             db.setValue(number.getText().toString());
-            Toast.makeText(this, "Count has been uploaded successfully", Toast.LENGTH_SHORT).show();
+            Snackbar.make(activitySubmitAttendance, "Count has been uploaded successfully", Snackbar.LENGTH_SHORT).show();
         }
     }
 }
